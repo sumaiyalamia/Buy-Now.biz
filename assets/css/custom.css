@@ -1,0 +1,137 @@
+.theme-color {
+    background-color: #FCF6FF;
+}
+
+.theme-font-color {
+    color: #7E00A5;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.registration-border {
+    border: 2px solid #7E00A5;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #F8ECFF;
+    font-weight: bold;
+    box-shadow: #6a1a21;
+    display: inline-block;
+
+}
+
+.input-field-decor {
+    display: inline-block;
+    margin-left: 10px
+}
+
+/*Not using*/
+.vertical-line {
+    border-left: 3px solid black;
+    height: 30px;
+    position: center;
+
+    margin-left: -3px;
+    top: 50%;
+    padding: 0px 20px;
+}
+
+.mr-3 {
+    margin-right: 12px;
+}
+
+input[type=text] {
+    background-color: #fcf6ff;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+
+input[type=password] {
+    background-color: #fcf6ff;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.shadow {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16), 0 3px 10px rgba(0, 0, 0, 0.23);
+}
+
+.button-custom {
+    padding: 5px 50px;
+    border-radius: 100px;
+    background-color: #7E00A5;
+    font-weight: bold;
+    box-sizing: border-box;
+    box-shadow: #6a1a21;
+    border-color: #7E00A5;
+}
+.button-custom-sm {
+    padding: 2px 20px;
+    border-radius: 100px;
+    background-color: #f3d0fd;
+    font-weight: bold;
+    box-sizing: border-box;
+    box-shadow: #6a1a21;
+    border-color: #7E00A5;
+    color: #7E00A5;
+}
+.button-custom-sm-reverse {
+    padding: 2px 20px;
+    border-radius: 100px;
+    background-color: #7E00A5;
+    font-weight: bold;
+    box-sizing: border-box;
+    box-shadow: #6a1a21;
+    border-color: #7E00A5;
+    color: #f3d0fd;
+}
+.button-custom-xl {
+    padding: 10px 100px;
+    border-radius: 100px;
+    background-color: #7E00A5;
+    font-weight: bold;
+    box-sizing: border-box;
+    box-shadow: #6a1a21;
+    border-color: #7E00A5;
+    font-size: 25px ;
+    color: white;
+}
+
+
+.button-custom:hover{
+    background: red;
+}
+
+.password-reset{
+    margin: 15px 0px;
+    color: #7E00A5;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1080px) {
+    .active {
+        border-bottom: 2px solid #7E00A5;
+    }
+}
+
+.card-mt-0{
+    margin-top: -60px;
+
+}
+
+.card{
+    background-color: #e9e4f1;
+    border-radius: 25px;
+    font-weight: bold;
+    box-sizing: border-box;
+    box-shadow: #6a1a21;
+    border-color: #7E00A5;
+    color: white;
+}
+
+.border-none{
+    border: none;
+    color: inherit;
+}
